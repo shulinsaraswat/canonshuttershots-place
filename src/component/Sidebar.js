@@ -36,11 +36,11 @@ export default class Sidebar extends Component{
     render(){
         return(
             <div id="mySidebar" className="sidebar" onMouseEnter={this.handleMouseEnter} onMouseLeave={this.handleMouseLeave}>
-                <a href="https://shulinsaraswat.github.io/canonshuttershots-nature"><span><i className="material-icons "><EcoIcon/></i></span><span className="icon-text"> &emsp;Nature</span></a><br/>
-                <a href="https://shulinsaraswat.github.io/canonshuttershots-people"><span><i className="material-icons "><PeopleAltIcon/></i></span><span className="icon-text"> &emsp;People</span></a><br/>
-                <a href="/canonshuttershots-place"><span><i className="material-icons "><PlaceIcon/></i></span><span className="icon-text"> &emsp;Place</span></a><br/>
-                <a href="https://shulinsaraswat.github.io/canonshuttershots-wildlife"><span><i className="material-icons "><PetsIcon/></i></span><span className="icon-text"> &emsp;Wildlife</span></a><br/>
-                <a href="https://shulinsaraswat.github.io/canonshuttershots"><span><i className="material-icons "><HomeIcon/></i></span><span className="icon-text"> &emsp;Home</span></a><br/>
+                <a className="btnSide-pl" href="https://shulinsaraswat.github.io/canonshuttershots-nature"><span><i className="material-icons "><EcoIcon/></i></span><span className="icon-text"> &emsp;Nature</span></a><br/>
+                <a className="btnSide-pl" href="https://shulinsaraswat.github.io/canonshuttershots-people"><span><i className="material-icons "><PeopleAltIcon/></i></span><span className="icon-text"> &emsp;People</span></a><br/>
+                <a className="selected-pl" href="/canonshuttershots-place"><span><i className="material-icons "><PlaceIcon/></i></span><span className="icon-text"> &emsp;Place</span></a><br/>
+                <a className="btnSide-pl" href="https://shulinsaraswat.github.io/canonshuttershots-wildlife"><span><i className="material-icons "><PetsIcon/></i></span><span className="icon-text"> &emsp;Wildlife</span></a><br/>
+                <a className="btnSide-pl" href="https://shulinsaraswat.github.io/canonshuttershots"><span><i className="material-icons "><HomeIcon/></i></span><span className="icon-text"> &emsp;Home</span></a><br/>
             </div>
         );
     }

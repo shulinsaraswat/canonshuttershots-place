@@ -19,7 +19,7 @@
     transition: 0.5s;    
   }
   
-  .sidebar a {
+  .sidebar .btnSide-pl {
     padding: 8px 8px 8px 25px;
     margin-top: 4px;
     margin-bottom:30px;
@@ -27,10 +27,21 @@
     font-size: 20px;
     color: #00a2c8;
     display: block;
+  }
 
+  .sidebar .selected-pl {
+    padding: 8px 8px 8px 25px;
+    margin-top: 4px;
+    margin-bottom:30px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #21aa47;
+    display: block;
+    border-left-style: solid;
+    border-left-color: #21aa47;
   }
   
-  .sidebar a:hover {
+  .sidebar .btnSide-pl:hover {
     color: #21aa47;
     text-decoration: none;
     background-color:white;
@@ -52,14 +63,6 @@
   .icon {
     margin-right: 30px;
   }
-
-  .sidebar a:focus{
-      color: #21aa47;
-  }
-
-  .sidebar a:active{
-    color: #21aa47;
-}
   
 @media (max-width: 768px) {
   .sidebar {
