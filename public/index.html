@@ -32,8 +32,9 @@
 
     <style>
       .loader {
-        border: 16px solid #f3f3f3;
-        border-top: 16px solid #00a2c8;
+        border: 6px solid #f3f3f3;
+        border-top: 8px solid #00a2c8;
+        border-bottom: 8px solid #f05c21;
         border-radius: 50%;
         width: 110px;
         height: 110px;
@@ -44,7 +45,8 @@
       
       @keyframes spin {
         0%  { transform: rotate(0deg); }
-        100% { transform: rotate(360deg); }
+        50%  { transform: scale(1.2); }
+        75% { transform: rotate(-180deg); }
       }
 
       @media (min-width: 320.90px) and (max-width: 768.98px){
